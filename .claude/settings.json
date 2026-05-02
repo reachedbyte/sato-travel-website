@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git remote *)",
+      "Bash(git push *)",
+      "Bash(git add *)",
+      "Bash(git commit -m 'docs: Add comprehensive deployment guide and feature documentation *)",
+      "Bash(git commit -m 'docs: Add comprehensive deployment status report *)",
+      "Bash(gh --version)",
+      "Bash(gh repo *)",
+      "Bash(gh api *)",
+      "Bash(git commit -m 'docs: Add live deployment report *)",
+      "Bash(git commit -m 'update: Change copyright year to 2026 and add Primtech Digital credit *)",
+      "Bash(file *.html)",
+      "Bash(git checkout *)",
+      "Bash(python3)"
+    ]
+  }
+}
