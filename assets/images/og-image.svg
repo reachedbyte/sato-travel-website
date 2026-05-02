@@ -1,0 +1,67 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <!-- Dark background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#050506;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#070708;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffbe3d;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#ff7a00;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+
+  <!-- Accent overlay -->
+  <rect width="1200" height="630" fill="url(#accentGradient)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="150" cy="100" r="120" fill="none" stroke="#ffbe3d" stroke-width="2" opacity="0.15"/>
+  <circle cx="1050" cy="530" r="180" fill="none" stroke="#ff7a00" stroke-width="2" opacity="0.1"/>
+
+  <!-- Logo circle -->
+  <circle cx="100" cy="80" r="45" fill="none" stroke="#ffbe3d" stroke-width="2" opacity="0.4"/>
+  <circle cx="100" cy="80" r="38" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.2"/>
+  <circle cx="100" cy="80" r="32" fill="none" stroke="#ffbe3d" stroke-width="1.5"/>
+
+  <!-- Logo arrow -->
+  <path d="M 100 50 L 115 80 L 100 75 L 85 80 Z" fill="#ffbe3d"/>
+  <path d="M 70 80 Q 100 70 130 80" fill="none" stroke="#ffbe3d" stroke-width="1" opacity="0.4"/>
+  <path d="M 70 80 Q 100 90 130 80" fill="none" stroke="#ffbe3d" stroke-width="1" opacity="0.4"/>
+
+  <!-- Main heading -->
+  <text x="250" y="90" font-family="'Cormorant Garamond', serif" font-size="72" font-weight="700" fill="#ffffff">SATO</text>
+  <text x="250" y="130" font-family="'Inter', sans-serif" font-size="18" font-weight="600" fill="#ffbe3d" letter-spacing="2">TRAVEL &amp; TOURS</text>
+
+  <!-- Main message -->
+  <text x="100" y="240" font-family="'Inter', sans-serif" font-size="48" font-weight="700" fill="#ffffff">
+    <tspan x="100" dy="0">Schengen Appointments,</tspan>
+    <tspan x="100" dy="60">Handled With Expert Care.</tspan>
+  </text>
+
+  <!-- Description -->
+  <text x="100" y="350" font-family="'Inter', sans-serif" font-size="20" fill="#cccccc" opacity="0.85">
+    <tspan x="100" dy="0">Professional visa appointment support across</tspan>
+    <tspan x="100" dy="28">Netherlands, France, Greece, Belgium, Malta &amp; more</tspan>
+  </text>
+
+  <!-- Trust badges -->
+  <g>
+    <!-- Expertise -->
+    <text x="100" y="450" font-family="'Inter', sans-serif" font-size="14" font-weight="600" fill="#ffbe3d">✓ Expert Team</text>
+    <!-- Speed -->
+    <text x="380" y="450" font-family="'Inter', sans-serif" font-size="14" font-weight="600" fill="#ffbe3d">✓ 24h Response</text>
+    <!-- Quality -->
+    <text x="750" y="450" font-family="'Inter', sans-serif" font-size="14" font-weight="600" fill="#ffbe3d">✓ Professional Support</text>
+  </g>
+
+  <!-- CTA button suggestion -->
+  <rect x="100" y="500" width="280" height="70" rx="35" fill="#ffbe3d"/>
+  <text x="240" y="543" font-family="'Inter', sans-serif" font-size="20" font-weight="700" fill="#0a0a0a" text-anchor="middle">REQUEST SUPPORT</text>
+
+  <!-- Website URL -->
+  <text x="1100" y="605" font-family="'Inter', sans-serif" font-size="18" fill="#ffbe3d" text-anchor="end">reachedbyte.github.io/sato-travel-website</text>
+</svg>
