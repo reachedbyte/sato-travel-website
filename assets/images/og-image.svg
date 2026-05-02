@@ -22,15 +22,24 @@
   <circle cx="150" cy="100" r="120" fill="none" stroke="#ffbe3d" stroke-width="2" opacity="0.15"/>
   <circle cx="1050" cy="530" r="180" fill="none" stroke="#ff7a00" stroke-width="2" opacity="0.1"/>
 
-  <!-- Logo circle -->
+  <!-- Logo circle with plane -->
   <circle cx="100" cy="80" r="45" fill="none" stroke="#ffbe3d" stroke-width="2" opacity="0.4"/>
   <circle cx="100" cy="80" r="38" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.2"/>
   <circle cx="100" cy="80" r="32" fill="none" stroke="#ffbe3d" stroke-width="1.5"/>
 
-  <!-- Logo arrow -->
-  <path d="M 100 50 L 115 80 L 100 75 L 85 80 Z" fill="#ffbe3d"/>
-  <path d="M 70 80 Q 100 70 130 80" fill="none" stroke="#ffbe3d" stroke-width="1" opacity="0.4"/>
-  <path d="M 70 80 Q 100 90 130 80" fill="none" stroke="#ffbe3d" stroke-width="1" opacity="0.4"/>
+  <!-- Plane forming the O -->
+  <!-- Fuselage -->
+  <ellipse cx="100" cy="80" rx="10" ry="14" fill="#ffbe3d"/>
+  <!-- Cockpit -->
+  <circle cx="100" cy="68" r="2.5" fill="#ffbe3d"/>
+  <!-- Left Wing -->
+  <path d="M 90 79 L 65 76 L 78 83 Z" fill="#ffbe3d"/>
+  <!-- Right Wing -->
+  <path d="M 110 79 L 135 76 L 122 83 Z" fill="#ffbe3d"/>
+  <!-- Tail -->
+  <path d="M 96 92 Q 100 100 104 92" fill="none" stroke="#ffbe3d" stroke-width="2" stroke-linecap="round"/>
+  <!-- Tail fin -->
+  <path d="M 97 92 L 95 98 L 103 92 Z" fill="#ffbe3d"/>
 
   <!-- Main heading -->
   <text x="250" y="90" font-family="'Cormorant Garamond', serif" font-size="52" font-weight="700" fill="#ffffff">OSATOTRAVEL</text>
