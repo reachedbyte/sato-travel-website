@@ -1,0 +1,17 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" width="64" height="64">
+  <!-- Favicon: Icon only -->
+  <rect width="64" height="64" fill="#FAFAF7"/>
+
+  <!-- Circular background -->
+  <circle cx="32" cy="32" r="26" fill="none" stroke="#C8962C" stroke-width="2" opacity="0.3"/>
+
+  <!-- Globe/Circle base -->
+  <circle cx="32" cy="32" r="20" fill="none" stroke="#0A0A0B" stroke-width="2"/>
+
+  <!-- Plane/Arrow mark -->
+  <path d="M 32 16 L 42 32 L 32 29 L 22 32 Z" fill="#C8962C"/>
+
+  <!-- Curved lines for globe -->
+  <path d="M 20 32 Q 32 25 44 32" fill="none" stroke="#0A0A0B" stroke-width="1" opacity="0.4"/>
+  <path d="M 20 32 Q 32 39 44 32" fill="none" stroke="#0A0A0B" stroke-width="1" opacity="0.4"/>
+</svg>

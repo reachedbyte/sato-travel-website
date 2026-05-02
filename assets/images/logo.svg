@@ -1,0 +1,29 @@
+<svg viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg" width="200" height="60">
+  <!-- Logo Lockup: Icon + Text -->
+
+  <!-- Globe/Plane Icon -->
+  <g>
+    <!-- Circular background for icon -->
+    <circle cx="24" cy="30" r="18" fill="none" stroke="#C8962C" stroke-width="1.5" opacity="0.3"/>
+
+    <!-- Globe/Circle base -->
+    <circle cx="24" cy="30" r="13" fill="none" stroke="#0A0A0B" stroke-width="1.5"/>
+
+    <!-- Plane/Arrow mark -->
+    <path d="M 24 18 L 30 30 L 24 28 L 18 30 Z" fill="#C8962C" opacity="0.9"/>
+
+    <!-- Subtle curved lines for globe -->
+    <path d="M 18 30 Q 24 26 30 30" fill="none" stroke="#0A0A0B" stroke-width="0.8" opacity="0.4"/>
+    <path d="M 18 30 Q 24 34 30 30" fill="none" stroke="#0A0A0B" stroke-width="0.8" opacity="0.4"/>
+  </g>
+
+  <!-- "SATO" Text -->
+  <text x="48" y="38" font-family="'Inter', sans-serif" font-size="20" font-weight="900" fill="#0A0A0B" letter-spacing="2">
+    SATO
+  </text>
+
+  <!-- "TRAVEL & TOURS" Subtext -->
+  <text x="48" y="52" font-family="'Inter', sans-serif" font-size="8" font-weight="600" fill="#C8962C" letter-spacing="1.2" text-transform="uppercase">
+    TRAVEL &amp; TOURS
+  </text>
+</svg>
