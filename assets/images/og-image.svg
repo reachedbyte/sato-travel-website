@@ -61,7 +61,4 @@
   <!-- CTA button suggestion -->
   <rect x="100" y="500" width="280" height="70" rx="35" fill="#ffbe3d"/>
   <text x="240" y="543" font-family="'Inter', sans-serif" font-size="20" font-weight="700" fill="#0a0a0a" text-anchor="middle">REQUEST SUPPORT</text>
-
-  <!-- Website URL -->
-  <text x="1100" y="605" font-family="'Inter', sans-serif" font-size="18" fill="#ffbe3d" text-anchor="end">reachedbyte.github.io/sato-travel-website</text>
 </svg>
