@@ -13,7 +13,10 @@
       "Bash(git commit -m 'update: Change copyright year to 2026 and add Primtech Digital credit *)",
       "Bash(file *.html)",
       "Bash(git checkout *)",
-      "Bash(python3)"
+      "Bash(python3)",
+      "Bash(git commit -m 'Remove GitHub URL from OG image *)",
+      "Bash(perl -i -0pe 's/<svg class=\"brand-logo\"[^>]*>.*?<\\\\/svg>/ *)",
+      "Bash(git commit -m ' *)"
     ]
   }
 }
