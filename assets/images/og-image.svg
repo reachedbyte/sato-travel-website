@@ -33,8 +33,8 @@
   <path d="M 70 80 Q 100 90 130 80" fill="none" stroke="#ffbe3d" stroke-width="1" opacity="0.4"/>
 
   <!-- Main heading -->
-  <text x="250" y="90" font-family="'Cormorant Garamond', serif" font-size="72" font-weight="700" fill="#ffffff">SATO</text>
-  <text x="250" y="130" font-family="'Inter', sans-serif" font-size="18" font-weight="600" fill="#ffbe3d" letter-spacing="2">TRAVEL &amp; TOURS</text>
+  <text x="250" y="90" font-family="'Cormorant Garamond', serif" font-size="52" font-weight="700" fill="#ffffff">OSATOTRAVEL</text>
+  <text x="250" y="130" font-family="'Inter', sans-serif" font-size="18" font-weight="600" fill="#ffbe3d" letter-spacing="2">AND TOURS</text>
 
   <!-- Main message -->
   <text x="100" y="240" font-family="'Inter', sans-serif" font-size="48" font-weight="700" fill="#ffffff">
